@@ -61,52 +61,21 @@ language_vars = {
     "korean_RR": IntVar(value=0)
 }
 
-british_flag_img = PhotoImage(file="image_assets/british flag.png")
-# create a variable to check if the button is checked, the value is put to 1 as a default starter
-# english_checked = IntVar(value=1)
-english_checked = IntVar()
-english_checkbutton = Checkbutton(text="English",image=british_flag_img,variable=language_vars["english"],command=update_list)
-english_checkbutton.grid(row=1,column=0)
-english_label = Label(window,text="English")
-english_label.grid(row=2,column=0)
+# Function to create a language checkbutton
+def create_language_checkbutton(language_label,language, row, column, image_file):
+    flag_img = PhotoImage(file=image_file)
+    checkbutton = Checkbutton(window, text=language_label.title(), image=flag_img, variable=language_vars[language], compound="left", command=update_list)
+    checkbutton.image = flag_img  # Keep a reference!
+    checkbutton.grid(row=row, column=column)
+    # Label(window, text=language_label.title()).grid(row=row+1, column=column)
 
-spanish_flag_img = PhotoImage(file="image_assets/spanish flag.png")
-# spanish_checked = IntVar(value=0)
-spanish_checkbutton = Checkbutton(text="Spanish",image=spanish_flag_img,variable=language_vars["spanish_translit"],command=update_list)
-spanish_checkbutton.grid(row=3,column=0)
-spanish_label = Label(window,text="Spanish")
-spanish_label.grid(row=4,column=0)
+create_language_checkbutton("english","english", 1, 0, "image_assets/british flag.png")
+create_language_checkbutton("spanish","spanish_translit", 3, 0, "image_assets/spanish flag.png")
+create_language_checkbutton("french","french_translit", 5, 0, "image_assets/french flag.png")
+create_language_checkbutton("german","german_translit", 1, 2, "image_assets/german_flag.png")
+create_language_checkbutton("japanese","japanese_romaji", 3, 2, "image_assets/japanese_flag.png")
+create_language_checkbutton("korean","korean_RR", 5, 2, "image_assets/south korean flag.png")
 
-
-french_flag_img = PhotoImage(file="image_assets/french flag.png")
-french_checked = IntVar(value=0)
-french_checkbutton = Checkbutton(text="French",image=french_flag_img,variable=language_vars["french_translit"],command=update_list)
-french_checkbutton.grid(row=5,column=0)
-french_label = Label(window,text="French")
-french_label.grid(row=6,column=0)
-
-
-german_flag_img = PhotoImage(file="image_assets/german_flag.png")
-german_checked = IntVar(value=0)
-german_checkbutton = Checkbutton(text="German",image=german_flag_img,variable=language_vars["german_translit"],command=update_list)
-german_checkbutton.grid(row=1,column=2)
-german_label = Label(window,text="German")
-german_label.grid(row=2,column=2)
-
-
-japanese_flag_img = PhotoImage(file="image_assets/japanese_flag.png")
-japanese_checkbutton = Checkbutton(text="Japanese",image=japanese_flag_img,variable=language_vars["japanese_romaji"],command=update_list)
-japanese_checkbutton.grid(row=3,column=2)
-japanese_label = Label(window,text="Japanese")
-japanese_label.grid(row=4,column=2)
-
-
-korean_flag_img = PhotoImage(file="image_assets/south korean flag.png")
-korean_checked = IntVar(value=0)
-korean_checkbutton = Checkbutton(text="Korean",image=korean_flag_img,variable=language_vars["korean_RR"],command=update_list)
-korean_checkbutton.grid(row=5,column=2)
-korean_label = Label(window,text="Korean")
-korean_label.grid(row=6,column=2)
 
 generate_button = Button(text="Generate Password",command=generate_password)
 generate_button.grid(row=7,column=1)
