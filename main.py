@@ -2,6 +2,8 @@ from tkinter import *
 import pandas as pd
 import random
 
+# re module for regex
+
 language_selected = []
 
 window = Tk()
@@ -21,19 +23,33 @@ def update_list():
     print("Languages selected:", language_selected)  # For debugging
 
 def generate_password():
-    print(language_selected)
+    # print(language_selected)
     if language_selected:
         password_entry.delete(0, "end")
-        # Filter DataFrame for 'animals' category
-        animals_df = df[df['category'] == 'animals']
-        if not animals_df.empty:
-            # Randomly select a row from the animals DataFrame
+
+        # check if the dataframes have data
+        if not animals_df.empty and not adjectives_df.empty and not places_df.empty:
+            # Sample one row for each dataframe
+            random_row_adj = adjectives_df.sample().iloc[0]
             random_row = animals_df.sample().iloc[0]
+            random_row_places = places_df.sample().iloc[0]
+
+
             # Randomly select a language from the selected languages
-            random_language = random.choice(language_selected)
+            random_language_1 = random.choice(language_selected)
+            random_language_2 = random.choice(language_selected)
+            random_language_3 = random.choice(language_selected)
             # Get the word from the selected language column
-            random_word = random_row[random_language]
-            password_entry.insert(0, random_word)
+            # we select one language if the mode is easy, otherwise we mix the languages
+            if difficulty.get() == 1:
+                random_word_adj = random_row_adj[random_language_1]
+                random_word = random_row[random_language_1]
+                random_word_places = random_row_places[random_language_1]
+            else:
+                random_word_adj = random_row_adj[random_language_1]
+                random_word = random_row[random_language_2]
+                random_word_places = random_row_places[random_language_3]
+            password_entry.insert(0, f"{random_word_adj}{random_word}{random_word_places}")
         else:
             print("No animals found in the DataFrame.")
     else:
@@ -75,6 +91,14 @@ create_language_checkbutton("french","french_translit", 5, 0, "image_assets/fren
 create_language_checkbutton("german","german_translit", 1, 2, "image_assets/german_flag.png")
 create_language_checkbutton("japanese","japanese_romaji", 3, 2, "image_assets/japanese_flag.png")
 create_language_checkbutton("korean","korean_RR", 5, 2, "image_assets/south korean flag.png")
+
+# Shared IntVar for both Radiobuttons
+difficulty = IntVar(value=1)  # 1 for easy mode, 2 for hard mode
+
+easy_mode_button = Radiobutton(window,text="easy",variable=difficulty,value=1)
+easy_mode_button.grid(row=7,column=0)
+hard_mode_button = Radiobutton(window,text="hard",variable=difficulty,value=2)
+hard_mode_button.grid(row=7,column=2)
 
 
 generate_button = Button(text="Generate Password",command=generate_password)
