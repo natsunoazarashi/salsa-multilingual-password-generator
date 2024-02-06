@@ -1,6 +1,6 @@
 # Salsa Multilingual Password Generator
 
-The Salsa Multilingual Password Generator is a Python-based application that generates secure, memorable passwords using a mix of adjectives and nouns from multiple languages.
+The Salsa Multilingual Password Generator is a Python-based application that generates memorable passwords using a mix of adjectives and nouns from multiple languages.
 
 ## Features
 

@@ -98,9 +98,11 @@ create_language_checkbutton("korean","korean_RR", 5, 2, "image_assets/south kore
 # Shared IntVar for both Radiobuttons
 difficulty = IntVar(value=1)  # 1 for easy mode, 2 for hard mode
 
-easy_mode_button = Radiobutton(window,text="easy",variable=difficulty,value=1)
+easy_img = PhotoImage(file="image_assets/jalapeno.png")
+easy_mode_button = Radiobutton(window,text="easy",image=easy_img,compound="left",variable=difficulty,value=1)
 easy_mode_button.grid(row=7,column=0)
-hard_mode_button = Radiobutton(window,text="hard",variable=difficulty,value=2)
+hard_img = PhotoImage(file="image_assets/red_pepper.png")
+hard_mode_button = Radiobutton(window,text="hard",image=hard_img,compound="left",variable=difficulty,value=2)
 hard_mode_button.grid(row=7,column=2)
 
 
