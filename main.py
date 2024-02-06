@@ -31,25 +31,28 @@ def generate_password():
         if not animals_df.empty and not adjectives_df.empty and not places_df.empty:
             # Sample one row for each dataframe
             random_row_adj = adjectives_df.sample().iloc[0]
-            random_row = animals_df.sample().iloc[0]
+            random_row_animal = animals_df.sample().iloc[0]
             random_row_places = places_df.sample().iloc[0]
 
 
             # Randomly select a language from the selected languages
-            random_language_1 = random.choice(language_selected)
-            random_language_2 = random.choice(language_selected)
-            random_language_3 = random.choice(language_selected)
-            # Get the word from the selected language column
-            # we select one language if the mode is easy, otherwise we mix the languages
+          # Sample one row from each DataFrame
+            random_row_adj = adjectives_df.sample().iloc[0]
+            random_row_animal = animals_df.sample().iloc[0]
+            random_row_place = places_df.sample().iloc[0]
+            
+            # For easy mode, use one language for all words; for hard mode, potentially use different languages for each word
             if difficulty.get() == 1:
-                random_word_adj = random_row_adj[random_language_1]
-                random_word = random_row[random_language_1]
-                random_word_places = random_row_places[random_language_1]
+                chosen_language = random.choice(language_selected)
+                lang_adj = lang_animal = lang_place = chosen_language
             else:
-                random_word_adj = random_row_adj[random_language_1]
-                random_word = random_row[random_language_2]
-                random_word_places = random_row_places[random_language_3]
-            password_entry.insert(0, f"{random_word_adj}{random_word}{random_word_places}")
+                lang_adj, lang_animal, lang_place = random.choices(language_selected, k=3)  # Allow repetition, selecting from all available languages
+            
+            # Select words based on the chosen languages
+            random_word_adj = random_row_adj[lang_adj]
+            random_word_animal = random_row_animal[lang_animal]
+            random_word_place = random_row_place[lang_place]
+            password_entry.insert(0, f"{random_word_adj.title()}{random_word_animal.title()}{random_word_place.title()}")
         else:
             print("No animals found in the DataFrame.")
     else:
