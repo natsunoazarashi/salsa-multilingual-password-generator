@@ -20,26 +20,26 @@ animals,cheetah,guépard,guepard,チーター,Chiitaa,치타,chita,guepardo,guep
 animals,lynx,Lynx,Lynx,リンクス,Rinkusu,스라소니,seurasoni,lince,lince,Luchs,Luchs
 animals,wolf,loup,loup,狼,Ookami,늑대,neugdae,lobo,lobo,Wolf,Wolf
 animals,fox,renard,renard,キツネ,Kitsune,여우,yeou,zorro,zorro,Fuchs,Fuchs
-animals,raccoon,raton laveur,raton laveur,ラクーン,Rakun,너구리,neoguri,mapache,mapache,Waschbar,Waschbär
+animals,raccoon,raton laveur,raton_laveur,ラクーン,Rakun,너구리,neoguri,mapache,mapache,Waschbar,Waschbär
 animals,otter,loutre,loutre,カワウソ,Kawauso,수달,sudal,nutria,nutria,Otter,Otter
 animals,beaver,castor,castor,ビーバー,Biibaa,비버,bibeo,castor,castor,Biber,Biber
 animals,squirrel,écureuil,ecureuil,リス,Risu,다람쥐,daramjwi,ardilla,ardilla,Eichhornchen,Eichhörnchen
 animals,rabbit,lapin,lapin,うさぎ,Usagi,토끼,tokki,conejo,conejo,Kaninchen,Kaninchen
 animals,hare,lièvre,lievre,野ウサギ,Nousagi,토끼,tokki,liebre,liebre,Hase,Hase
 animals,chipmunk,tamia,tamia,シマリス,Shimaarisu,다람쥐,daramjwi,ardiente,ardiente,Chipmunk,Chipmunk
-animals,bat,chauve souris,chauve souris,コウモリ,Koumori,박쥐,bakjwi,murcielago,murciélago,Schlager,Schläger
+animals,bat,chauve souris,chauve_souris,コウモリ,Koumori,박쥐,bakjwi,murcielago,murciélago,Schlager,Schläger
 animals,mouse,souris,souris,ねずみ,Nezumi,생쥐,saengjwi,raton,ratón,Maus,Maus
 animals,hamster,hamster,hamster,ハムスター,Hamusutaa,햄스터,haemseuteo,hamster,hámster,Hamster,Hamster
 animals,chinchilla,chinchilla,chinchilla,チンチラ,Chinchira,친칠라,chinchilla,chinchilla,chinchilla,Chinchilla,Chinchilla
-animals,ferret,furet,furet,フェレット,Feretto,가는 리본,ganeun ribon,huron,hurón,Frettchen,Frettchen
+animals,ferret,furet,furet,フェレット,Feretto,가는 리본,ganeun_ribon,huron,hurón,Frettchen,Frettchen
 animals,weasel,belette,belette,イタチ,Itachi,족제비,jogjebi,comadreja,comadreja,Wiesel,Wiesel
 animals,badger,blaireau,blaireau,狸,Tanuki,오소리,osori,tejon,tejón,Dachs,Dachs
 animals,hedgehog,hérisson,herisson,ハリネズミ,Harinezumi,고슴도치,goseumdochi,erizo,erizo,Igel,Igel
-animals,porcupine,porc-épic,porc-epic,ヤマアラシ,Yamaarashi,호저,hojeo,puerco espin,puerco espín,Stachelschwein,Stachelschwein
+animals,porcupine,porc-épic,porc-epic,ヤマアラシ,Yamaarashi,호저,hojeo,puerco_espin,puerco espín,Stachelschwein,Stachelschwein
 animals,armadillo,tatou,tatou,アルマジロ,Arumajiro,아르마딜로,areumadillo,armadillo,armadillo,Gurteltier,Gürteltier
-animals,anteater,fourmilier,fourmilier,アリタン,Aritan,개미핥기,gaemihaltgi,oso hormiguero,oso hormiguero,Ameisenbar,Ameisenbär
+animals,anteater,fourmilier,fourmilier,アリタン,Aritan,개미핥기,gaemihaltgi,oso_hormiguero,oso hormiguero,Ameisenbar,Ameisenbär
 animals,platypus,ornithorynque,ornithorynque,カラタイプ,Karataipu,오리너구리,orineoguri,ornitorrinco,ornitorrinco,Schnabeltier,Schnabeltier
-animals,echidna,échidné,echidne,エキドナ,Ekidona,에치 나,echi na,ecidna,ecidna,Echidna,Echidna
+animals,echidna,échidné,echidne,エキドナ,Ekidona,에치 나,echi_na,ecidna,ecidna,Echidna,Echidna
 animals,wombat,wombat,wombat,ウォンバット,Wonbatto,웜뱃,wombat,wombat,wombat,Wombat,Wombat
 animals,deer,cerf,cerf,鹿,Shika,사슴,saseum,ciervo,ciervo,Reh,Reh
 animals,moose,élan,elan,ムース,Muusu,엘크,elkeu,alce,alce,Elch,Elch
@@ -55,7 +55,7 @@ animals,donkey,âne,ane,ロバ,Roba,당나귀,dangnagwi,burro,burro,Esel,Esel
 animals,horse,cheval,cheval,馬,Uma,말,mal,caballo,caballo,Pferd,Pferd
 animals,zebu,zébu,zebu,ゼブ,Zebu,혹소,hogso,cebu,cebú,Zebu,Zebu
 animals,yak,yak,yak,ヤク,Yaku,야크,yakeu,yak,yak,Yak,Yak
-animals,gazelle,gazelle,gazelle,ガゼル,Gazeru,가젤 영양,gajel yeongyang,gacela,gacela,Gazelle,Gazelle
+animals,gazelle,gazelle,gazelle,ガゼル,Gazeru,가젤 영양,gajel_yeongyang,gacela,gacela,Gazelle,Gazelle
 animals,impala,impala,impala,インパラ,Inpara,임팔라,impalla,impala,impala,Impala,Impala
 animals,crocodile,crocodile,crocodile,クロコダイル,Kurokodairu,악어,ageo,cocodrilo,cocodrilo,Krokodil,Krokodil
 animals,alligator,alligator,alligator,アリゲーター,Arigeetaa,악어,ageo,caiman,caimán,Alligator,Alligator
@@ -76,7 +76,7 @@ animals,falcon,faucon,faucon,ファルコン,Farukon,매,mae,halcon,halcón,Falk
 animals,owl,hibou,hibou,フクロウ,Fukurou,올빼미,olppaemi,buho,búho,Eule,Eule
 animals,parrot,perroquet,perroquet,オウム,Oumu,앵무새,aengmusae,loro,loro,Papagei,Papagei
 animals,sparrow,moineau,moineau,スズメ,Suzume,참새,chamsae,gorrion,gorrión,Spatz,Spatz
-animals,robin,rouge-gorge,rouge-gorge,ロビン,Robin,남자 이름,namja ireum,Robin,Robin,Robin,Robin
+animals,robin,rouge-gorge,rouge-gorge,ロビン,Robin,남자 이름,namja_ireum,Robin,Robin,Robin,Robin
 animals,cardinal,cardinal,cardinal,枢機卿,Suikyou,추기경,chugigyeong,cardenal,cardenal,Kardinal,Kardinal
 animals,mountain,montagne,montagne,山,Yama,산,san,montana,montaña,Berg,Berg
 animals,valley,vallée,vallee,谷,Tani,골짜기,goljaggi,valle,valle,Schlucht,Schlucht
@@ -86,7 +86,7 @@ places,ocean,océan,ocean,海,Umi,대양,daeyang,oceano,océano,Ozean,Ozean
 places,river,rivière,riviere,川,Kawa,강,gang,rio,río,Fluss,Fluss
 places,lake,lac,lac,湖,Mizuumi,호수,hosu,lago,lago,See,See
 places,waterfall,cascade,cascade,滝,Taki,폭포,pogpo,cascada,cascada,Wasserfall,Wasserfall
-places,canyon,canyon,canyon,キャニオン,Kyanion,깊은 협곡,gipeun hyeogog,canon,cañón,Schlucht,Schlucht
+places,canyon,canyon,canyon,キャニオン,Kyanion,깊은 협곡,gipeun_hyeogog,canon,cañón,Schlucht,Schlucht
 places,plain,plaine,plaine,無地,Muji,솔직한,soljighan,plano,plano,schmucklos,schmucklos
 places,island,île,ile,島,Shima,섬,seom,isla,isla,Insel,Insel
 places,volcano,volcan,volcan,火山,Kazan,화산,hwasan,volcan,volcán,Vulkan,Vulkan
@@ -107,7 +107,7 @@ places,tunnel,tunnel,tunnel,トンネル,Tonneru,터널,teoneol,tunel,túnel,Tun
 places,road,route,route,道,Michi,도로,doro,camino,camino,Straße,Straße
 places,highway,Autoroute,Autoroute,高速道路,Kousokudouro,고속도로,gosokdoro,carretera,carretera,Autobahn,Autobahn
 places,park,parc,parc,公園,Kouen,공원,gongwon,parque,parque,Park,Park
-places,plaza,place,place,プラザ,Puraza,큰 광장,keun gwangjang,plaza,plaza,Plaza,Plaza
+places,plaza,place,place,プラザ,Puraza,큰 광장,keun_gwangjang,plaza,plaza,Plaza,Plaza
 places,palace,palais,palais,宮殿,Kyuuden,궁전,gungjeon,palacio,palacio,Palast,Palast
 places,castle,château,chateau,城,Shiro,성,seong,castillo,castillo,Schloss,Schloss
 places,temple,temple,temple,寺,Tera,절,jeol,templo,templo,Tempel,Tempel
@@ -116,13 +116,13 @@ places,museum,musée,musee,博物館,Hakubutsukan,박물관,bagmulgwan,museo,mus
 places,theater,théâtre,theatre,劇場,Gekijou,극장,geugjang,teatro,teatro,Theater,Theater
 places,stadium,stade,stade,スタジアム,Sutajiamu,경기장,gyeonggijang,estadio,estadio,Stadion,Stadion
 places,arena,arène,arene,アリーナ,Ariina,투기장,tugijang,arena,arena,Arena,Arena
-places,skyscraper,gratte-ciel,gratte-ciel,超高層ビル,Choukousou biru,마천루,macheonnu,rascacielos,rascacielos,Wolkenkratzer,Wolkenkratzer
+places,skyscraper,gratte-ciel,gratte-ciel,超高層ビル,Choukousou_biru,마천루,macheonnu,rascacielos,rascacielos,Wolkenkratzer,Wolkenkratzer
 places,monument,monument,monument,記念碑,Kinenhi,기념물,ginyeommul,Monumento,Monumento,Monument,Monument
 places,factory,usine,usine,工場,Koujou,공장,gongjang,fabrica,fábrica,Fabrik,Fabrik
 places,farm,ferme,ferme,農場,Noujou,농장,nongjang,granja,granja,Bauernhof,Bauernhof
 places,vineyard,vignoble,vignoble,ブドウ園,Budouen,포도원,podowon,vinedo,viñedo,Weinberg,Weinberg
 places,market,marché,marche,市場,Ichiba,시장,sijang,mercado,mercado,Markt,Markt
-places,mall,centre commercial,centre commercial,モール,Mooru,쇼핑 센터,syoping senteo,centro comercial,centro comercial,Einkaufszentrum,Einkaufszentrum
+places,mall,centre commercial,centre_commercial,モール,Mooru,쇼핑 센터,syoping_senteo,centro_comercial,centro comercial,Einkaufszentrum,Einkaufszentrum
 places,hotel,hôtel,hotel,ホテル,Hoteru,호텔,hotel,hotel,hotel,Hotel,Hotel
 places,restaurant,restaurant,restaurant,レストラン,Resutoran,식당,sikdang,restaurante,restaurante,Restaurant,Restaurant
 places,cafe,café,cafe,カフェ,Kafe,카페,cafe,cafeteria,cafetería,Cafe,Cafe
@@ -140,7 +140,7 @@ places,barracks,caserne,caserne,兵舎,Heisha,막사,magsa,cuartel,cuartel,Kaser
 places,fortress,forteresse,forteresse,要塞,Yousai,요새,yosae,fortaleza,fortaleza,Festung,Festung
 places,bunker,bunker,bunker,陣地壕,Jinchigou,벙커,beongkeo,bunker,búnker,Bunker,Bunker
 places,embassy,ambassade,ambassade,大使館,Taishikan,대사관,daesagwan,embajada,embajada,Botschaft,Botschaft
-places,courthouse,tribunal,tribunal,裁判所,Saibansho,법원,beopwon,palacio de justicia,palacio de justicia,Gerichtsgebaude,Gerichtsgebäude
+places,courthouse,tribunal,tribunal,裁判所,Saibansho,법원,beopwon,palacio_de_justicia,palacio de justicia,Gerichtsgebaude,Gerichtsgebäude
 places,townhall,mairie,mairie,町役場,Machiyakuba,시청,sicheong,Ayuntamiento,Ayuntamiento,Rathaus,Rathaus
 places,oasis,oasis,oasis,オアシス,Oashisu,오아시스,oasisi,oasis,oasis,Oase,Oase
 places,archipelago,archipel,archipel,諸島,Shotou,열도,yeoldo,archipielago,archipiélago,Archipel,Archipel
@@ -154,7 +154,7 @@ places,delta,delta,delta,デルタ,Deruta,델타,delta,delta,delta,Delta,Delta
 places,tundra,toundra,toundra,ツンドラ,Tsundora,동토대,dongtodae,tundra,tundra,Tundra,Tundra
 places,savannah,savane,savane,サバンナ,Sabanna,사바나,sabana,sabana,sabana,Savanne,Savanne
 places,jungle,jungle,jungle,密林,Mitsurin,밀림,millim,selva,selva,Dschungel,Dschungel
-places,rainforest,forêt tropicale,foret tropicale,雨林,Amurin,열대 우림,yeoldae urim,selva,selva,Regenwald,Regenwald
+places,rainforest,forêt tropicale,foret_tropicale,雨林,Amurin,열대 우림,yeoldae_urim,selva,selva,Regenwald,Regenwald
 places,freedom,liberté,liberte,自由,Jiyuu,자유,jayu,libertad,libertad,Freiheit,Freiheit
 places,justice,justice,justice,正義,Seigi,정당성,jeongdangseong,justicia,justicia,Gerechtigkeit,Gerechtigkeit
 places,equality,égalité,egalite,平等,Byoudou,평등,pyeongdeung,igualdad,igualdad,Gleichwertigkeit,Gleichwertigkeit
@@ -168,7 +168,7 @@ concepts,power,pouvoir,pouvoir,力,Chikara,힘,him,fuerza,fuerza,Leistung,Leistu
 concepts,love,amour,amour,愛,Ai,사랑,sarang,amar,amar,Liebe,Liebe
 concepts,hope,espoir,espoir,希望,Kibou,희망,huimang,esperanza,esperanza,Hoffnung,Hoffnung
 concepts,faith,foi,foi,信仰,Shinkou,믿음,mideum,fe,fe,Glaube,Glaube
-concepts,charity,charité,charite,慈善,Jizen,자선 단체,jaseon danche,caridad,caridad,Wohltatigkeit,Wohltätigkeit
+concepts,charity,charité,charite,慈善,Jizen,자선 단체,jaseon_danche,caridad,caridad,Wohltatigkeit,Wohltätigkeit
 concepts,courage,courage,courage,勇気,Yuuki,용기,yonggi,coraje,coraje,Mut,Mut
 concepts,loyalty,loyauté,loyaute,忠誠心,Chuuseishin,충의,chungui,lealtad,lealtad,Loyalitat,Loyalität
 concepts,patience,patience,patience,忍耐,Nintai,인내심,innaesim,paciencia,paciencia,Geduld,Geduld
@@ -181,7 +181,7 @@ concepts,gratitude,gratitude,gratitude,感謝,Kansha,고마움,gomawum,gratitud,
 concepts,humility,humilité,humilite,謙虚,Kenkyo,겸손,gyeomson,humildad,humildad,Demut,Demut
 concepts,sympathy,sympathie,sympathie,同情,Doujou,동정,dongjeong,compasion,compasión,Sympathie,Sympathie
 concepts,optimism,optimisme,optimisme,楽観,Rakkan,낙천주의,nakcheonjuui,optimismo,optimismo,Optimismus,Optimismus
-concepts,ambition,ambition,ambition,野心,Yashin,큰 뜻,keun tteus,ambicion,ambición,Ehrgeiz,Ehrgeiz
+concepts,ambition,ambition,ambition,野心,Yashin,큰 뜻,keun_tteus,ambicion,ambición,Ehrgeiz,Ehrgeiz
 concepts,contentment,contentement,contentement,満足,Manzoku,만족,manjok,contentamiento,contentamiento,Zufriedenheit,Zufriedenheit
 concepts,curiosity,curiosité,curiosite,好奇心,Koukishin,호기심,hogisim,curiosidad,curiosidad,Neugier,Neugier
 concepts,inspiration,inspiration,inspiration,インスピレーション,Insupireeshon,영감,yeonggam,inspiracion,inspiración,Inspiration,Inspiration
@@ -193,7 +193,7 @@ concepts,admiration,admiration,admiration,感嘆,Kantan,감탄,gamtan,admiracion
 concepts,satisfaction,satisfaction,satisfaction,満足,Manzoku,만족,manjok,satisfaccion,satisfacción,Zufriedenheit,Zufriedenheit
 concepts,fulfillment,accomplissement,accomplissement,充足,Jousoku,이행,ihaeng,cumplimiento,cumplimiento,Erfullung,Erfüllung
 concepts,friendship,amitié,amitie,友情,Yuujou,우정,ujeong,amistad,amistad,Freundschaft,Freundschaft
-concepts,victory,la victoire,la victoire,勝利,Shouri,승리,seungri,victoria,victoria,Sieg,Sieg
+concepts,victory,la victoire,la_victoire,勝利,Shouri,승리,seungri,victoria,victoria,Sieg,Sieg
 concepts,survival,survie,survie,生存,Seizon,활착,hwalchak,supervivencia,supervivencia,Uberleben,Überleben
 concepts,safety,sécurité,securite,安全性,Anzensei,안전,anjeon,seguridad,seguridad,Sicherheit,Sicherheit
 concepts,security,sécurité,securite,安全,Anzen,보안,boan,seguridad,seguridad,Sicherheit,Sicherheit
@@ -206,11 +206,11 @@ concepts,restoration,restauration,restauration,復元,Fukugen,복구,bokgu,resta
 concepts,preservation,préservation,preservation,保存,Hozon,보존,bojon,preservacion,preservación,Erhaltung,Erhaltung
 concepts,conservation,conservation,conservation,保全,Hozen,보존,bojon,conservacion,conservación,Erhaltung,Erhaltung
 concepts,change,changement,changement,変化,Henka,변화,byeonhwa,cambiar,cambiar,andern,ändern
-concepts,stability,la stabilité,la stabilite,安定性,Anteisei,안정,anjeong,estabilidad,estabilidad,Stabilitat,Stabilität
+concepts,stability,la stabilité,la_stabilite,安定性,Anteisei,안정,anjeong,estabilidad,estabilidad,Stabilitat,Stabilität
 concepts,order,commande,commande,注文,Chuumon,주문하다,jumunhada,orden,orden,Befehl,Befehl
 concepts,revolution,révolution,revolution,革命,Kakumei,혁명,hyeongmyeong,revolucion,revolución,Revolution,Revolution
 concepts,tradition,tradition,tradition,伝統,Dentou,전통,jeontong,tradicion,tradición,Tradition,Tradition
-concepts,modernity,la modernité,la modernite,現代性,Gendaiteisei,현대성,hyeondaeseong,modernidad,modernidad,Modernitat,Modernität
+concepts,modernity,la modernité,la_modernite,現代性,Gendaiteisei,현대성,hyeondaeseong,modernidad,modernidad,Modernitat,Modernität
 concepts,progress,progrès,progres,進捗,Shinchoku,진전,jinjeon,progreso,progreso,Fortschritt,Fortschritt
 concepts,renaissance,Renaissance,Renaissance,ルネサンス,Runesansu,르네상스,reunesangseu,Renacimiento,Renacimiento,Renaissance,Renaissance
 concepts,enlightenment,éclaircissement,eclaircissement,啓発,Keihatsu,계발,gyebal,iluminacion,iluminación,Aufklarung,Aufklärung
@@ -231,16 +231,16 @@ adjectives,magnificent,magnifique,magnifique,壮大,Soudai,웅장한,ungjanghan,
 adjectives,noble,noble,noble,ノーブル,Nooburu,고귀한,gogwihan,noble,noble,edel,edel
 adjectives,optimistic,optimiste,optimiste,楽観的,Rakkanteki,낙관적인,nakgwanjeogin,optimista,optimista,optimistisch,optimistisch
 adjectives,peaceful,pacifique,pacifique,平和な,Heiwana,평화로운,pyeonghwaroun,pacifico,pacífico,friedlich,friedlich
-adjectives,reliable,fiable,fiable,信頼性のある,Shinraiseinoyoru,믿을 수 있는,mideul su inneun,confiable,confiable,zuverlassig,zuverlässig
+adjectives,reliable,fiable,fiable,信頼性のある,Shinraiseinoyoru,믿을 수 있는,mideul_su_inneun,confiable,confiable,zuverlassig,zuverlässig
 adjectives,sincere,sincère,sincere,誠実な,Seijitsuna,진실된,jinsildeun,sincero,sincero,aufrichtig,aufrichtig
-adjectives,thoughtful,réfléchi,reflechi,思慮深い,Shirubukoi,인정 있는,injeong inneun,considerado,considerado,nachdenklich,nachdenklich
+adjectives,thoughtful,réfléchi,reflechi,思慮深い,Shirubukoi,인정 있는,injeong_inneun,considerado,considerado,nachdenklich,nachdenklich
 adjectives,unique,unique,unique,個性的,Koseiteki,고유한,goyuhan,unico,único,einzigartig,einzigartig
 adjectives,vibrant,vibrant,vibrant,活気,Kikii,떠는,tteoneun,vibrante,vibrante,beschwingt,beschwingt
 adjectives,zealous,zélé,zele,熱心,Nesshin,열심,yeolsim,celoso,celoso,eifrig,eifrig
 adjectives,active,actif,actif,アクティブ,Akutibu,활동적인,hwaldongjeogin,activo,activo,aktiv,aktiv
 adjectives,bored,ennuyé,ennuye,退屈,Taikutsu,지루한,jiruhan,aburrido,aburrido,gelangweilt,gelangweilt
 adjectives,calm,calme,calme,落ち着いた,Ochitsuita,침착한,chimchakhan,calma,calma,ruhig,ruhig
-adjectives,delighted,ravi,ravi,喜んだ,Yorokonda,아주 기뻐하는,aju gippeohaneun,contento,contento,erfreut,erfreut
+adjectives,delighted,ravi,ravi,喜んだ,Yorokonda,아주 기뻐하는,aju_gippeohaneun,contento,contento,erfreut,erfreut
 adjectives,excited,excité,excite,興奮した,Koufunshita,흥분한,heungbunhan,entusiasmado,entusiasmado,aufgeregt,aufgeregt
 adjectives,frightened,effrayé,effraye,恐ろしかった,Osoroshikatta,겁먹은,geommeogeun,atemorizado,atemorizado,erschrocken,erschrocken
 adjectives,glad,content,content,嬉しい,Ureshii,기쁜,gippeun,contento,contento,froh,froh
@@ -250,13 +250,13 @@ adjectives,keen,passionné,passionne,鋭い,Surudoi,날카로운,nalkaroun,afect
 adjectives,lazy,paresseux,paresseux,怠け者,Namakemono,게으른,geeureun,perezoso,perezoso,faul,faul
 adjectives,moody,lunatique,lunatique,ムーディー,Muudii,무디,mudi,malhumorado,malhumorado,launisch,launisch
 adjectives,nervous,nerveux,nerveux,神経質,Shinkeishitsu,불안한,buranhan,nervioso,nervioso,nervos,nervös
-adjectives,overjoyed,fou de joie,fou de joie,大喜び,Ooyorokobi,너무 기뻐했습니다,neomu gippeohaetseumnida,lleno de alegria,lleno de alegría,uberglucklich,überglücklich
+adjectives,overjoyed,fou de joie,fou_de_joie,大喜び,Ooyorokobi,너무 기뻐했습니다,neomu_gippeohaetseumnida,lleno_de_alegria,lleno de alegría,uberglucklich,überglücklich
 adjectives,proud,fier,fier,誇りに思う,Hokorinishimu,자랑스러운,jarangseureoun,orgulloso,orgulloso,stolz,stolz
 adjectives,quiet,calme,calme,静かな,Shizukana,조용한,joyonghan,tranquilo,tranquilo,ruhig,ruhig
 adjectives,restless,agité,agite,落ち着きがない,Ochitsukigai,불안합니다,buranhamnida,inquieto,inquieto,unruhig,unruhig
 adjectives,sleepy,somnolent,somnolent,眠い,Nemui,졸린,jollin,somnoliento,somnoliento,schlafrig,schläfrig
 adjectives,tense,tendu,tendu,時制,Jisei,시제,sije,tenso,tenso,Zeitform,Zeitform
-adjectives,vigorous,vigoureux,vigoureux,活発,Kappatsu,원기 왕성한,wongi wangseonghan,vigoroso,vigoroso,kraftig,kräftig
+adjectives,vigorous,vigoureux,vigoureux,活発,Kappatsu,원기 왕성한,wongi_wangseonghan,vigoroso,vigoroso,kraftig,kräftig
 adjectives,worried,inquiet,inquiet,心配した,Shinpaishita,걱정하는,geokjeonghaneun,preocupado,preocupado,besorgt,besorgt
 adjectives,exhausted,épuisé,epuise,疲れ果てた,Tsukarehateta,탈진한,taljinha,exhausto,exhausto,erschopft,erschöpft
 adjectives,small,petit,petit,小さい,Chiisai,작은,jageun,pequeno,pequeño,klein,klein
@@ -270,22 +270,22 @@ adjectives,hollow,creux,creux,中空,Chuukuu,구멍,gumeong,hueco,hueco,hohl,hoh
 adjectives,icy,glacé,glace,氷,Koori,쌀쌀한,ssalssalhan,glacial,glacial,eisig,eisig
 adjectives,numb,engourdi,engourdi,麻痺,Mahe,무감각,mugamgak,adormecer,adormecer,betauben,betäuben
 adjectives,rusty,rouillé,rouille,さび,Sabi,녹슨,nogseun,oxidado,oxidado,rostig,rostig
-adjectives,sandy,sablonneux,sablonneux,砂の,Suna no,남자 이름,namja ireum,arenoso,arenoso,sandig,sandig
+adjectives,sandy,sablonneux,sablonneux,砂の,Suna_no,남자 이름,namja_ireum,arenoso,arenoso,sandig,sandig
 adjectives,abrasive,abrasif,abrasif,研磨剤,Kenbaizai,연마제,yeonmaje,abrasivo,abrasivo,Schleifmittel,Schleifmittel
-adjectives,brittle,fragile,fragile,脆い,Moroi,다루기 힘든,darugi himdeun,fragil,frágil,sprode,spröde
-adjectives,dusty,poussiéreux,poussiereux,ほこりっぽい,Hokorippoi,무미 건조한,mumi geonjohan,polvoriento,polvoriento,staubig,staubig
+adjectives,brittle,fragile,fragile,脆い,Moroi,다루기 힘든,darugi_himdeun,fragil,frágil,sprode,spröde
+adjectives,dusty,poussiéreux,poussiereux,ほこりっぽい,Hokorippoi,무미 건조한,mumi_geonjohan,polvoriento,polvoriento,staubig,staubig
 adjectives,heavy,lourd,lourd,重い,Omoi,무거운,mugeoun,pesado,pesado,schwer,schwer
-adjectives,iridescent,iridescent,iridescent,虹色,Nijiiro,무지개 빛깔,mujigae bitkkal,iridiscente,iridiscente,irisierend,irisierend
-adjectives,juicy,juteux,juteux,ジューシー,Juushii,흥미 진진한,heungmi jinjinhan,jugoso,jugoso,saftig,saftig
-adjectives,kaleidoscopic,kaléidoscopique,kaleidoscopique,万華鏡,Mangekyou,만화경 같은,manhwagyeong gateun,calidoscopico,calidoscópico,kaleidoskopisch,kaleidoskopisch
-adjectives,vivid,vif,vif,鮮やかです,Azayaka desu,생생한,saengsaenghan,vivido,vívido,lebendig,lebendig
-adjectives,woolly,laineux,laineux,ウーリー,Uurii,양털 같은,yangteol gateun,lanoso,lanoso,wollig,wollig
-adjectives,bland,fade,fade,当たり障りのない,Atarishigari no nai,온화한,onhwanhan,amable,amable,fade,fade
-adjectives,crunchy,croquant,croquant,カリカリ,Karikari,우두둑 깨무는,ududuk kkaemuneun,crujiente,crujiente,knackig,knackig
+adjectives,iridescent,iridescent,iridescent,虹色,Nijiiro,무지개 빛깔,mujigae_bitkkal,iridiscente,iridiscente,irisierend,irisierend
+adjectives,juicy,juteux,juteux,ジューシー,Juushii,흥미 진진한,heungmi_jinjinhan,jugoso,jugoso,saftig,saftig
+adjectives,kaleidoscopic,kaléidoscopique,kaleidoscopique,万華鏡,Mangekyou,만화경 같은,manhwagyeong_gateun,calidoscopico,calidoscópico,kaleidoskopisch,kaleidoskopisch
+adjectives,vivid,vif,vif,鮮やかです,Azayaka_desu,생생한,saengsaenghan,vivido,vívido,lebendig,lebendig
+adjectives,woolly,laineux,laineux,ウーリー,Uurii,양털 같은,yangteol_gateun,lanoso,lanoso,wollig,wollig
+adjectives,bland,fade,fade,当たり障りのない,Atarishigari_no_nai,온화한,onhwanhan,amable,amable,fade,fade
+adjectives,crunchy,croquant,croquant,カリカリ,Karikari,우두둑 깨무는,ududuk_kkaemuneun,crujiente,crujiente,knackig,knackig
 adjectives,indigo,indigo,indigo,インジゴ,Injigo,남빛,nambit,indigo,índigo,Indigo,Indigo
 adjectives,jaunty,désinvolte,desinvolte,ジャウンティ,Jaunti,말쑥한,malsseonghan,alegre,alegre,haunty,haunty
 adjectives,enchanting,enchanteur,enchanteur,魅惑的,Miwakuteki,매혹적인,maehokjeogin,encantador,encantador,zauberhaft,zauberhaft
-adjectives,fiery,ardent,ardent,燃えるような,Moeruyouna,불 같은,bul gateun,ardiente,ardiente,feurig,feurig
+adjectives,fiery,ardent,ardent,燃えるような,Moeruyouna,불 같은,bul_gateun,ardiente,ardiente,feurig,feurig
 adjectives,glacial,glacial,glacial,氷河,Hyouga,빙하,bingha,glacial,glacial,Gletscher,Gletscher
 adjectives,inviting,attrayant,attrayant,招待,Shoutai,초대,chodae,atractivo,atractivo,einladend,einladend
 adjectives,jovial,jovial,jovial,陽気,Youki,유쾌한,yukwaehan,jovial,jovial,frohlich,fröhlich
@@ -295,31 +295,31 @@ adjectives,pristine,parfait,parfait,手付かず,Tedukazu,깨끗합니다,kkaekk
 adjectives,robust,robuste,robuste,屈強,Kukyou,건장한,geonjanghan,robusto,robusto,robust,robust
 adjectives,sparkling,pétillant,petillant,きらめく,Kirameku,반짝임,banjjagim,espumoso,espumoso,funkeln,funkeln
 adjectives,trim,garniture,garniture,トリム,Torimu,손질,sonjil,recortar,recortar,trimmen,trimmen
-adjectives,unfathomable,insondable,insondable,計り知れない,Hakari shirenai,심오한,simohan,insondable,insondable,unergrundlich,unergründlich
+adjectives,unfathomable,insondable,insondable,計り知れない,Hakari_shirenai,심오한,simohan,insondable,insondable,unergrundlich,unergründlich
 adjectives,exotic,exotique,exotique,エキゾチック,Ekizochikku,이국적인,igukjeogin,exotico,exótico,exotisch,exotisch
-adjectives,breezy,frais,frais,さわやかです,Sawayakadesu,브리 지,beuri ji,ventoso,ventoso,luftig,luftig
-adjectives,cluttered,encombré,encombre,散らかった,Chirakatta,혼란 스러웠다,honran seureowotda,desordenado,desordenado,uberladen,überladen
+adjectives,breezy,frais,frais,さわやかです,Sawayakadesu,브리 지,beuri_ji,ventoso,ventoso,luftig,luftig
+adjectives,cluttered,encombré,encombre,散らかった,Chirakatta,혼란 스러웠다,honran_seureowotda,desordenado,desordenado,uberladen,überladen
 adjectives,ethereal,éthéré,ethere,エーテル,Eeteru,미묘한,mimyohan,etereo,etéreo,atherisch,ätherisch
 adjectives,frosty,glacial,glacial,フロスティ,Furosuti,싸늘한,ssaneulhan,escarchado,escarchado,eisig,eisig
 adjectives,gilded,doré,dore,金色,Konjiki,화려한,hwaryeohan,dorado,dorado,vergoldet,vergoldet
 adjectives,harsh,rude,rude,ひどい,Hidoi,가혹한,gahokhan,duro,duro,harsch,harsch
-adjectives,jarring,discordant,discordant,耳障り,Mimi sawari,부조화,bujohwa,discorde,discorde,Jarring,Jarring
+adjectives,jarring,discordant,discordant,耳障り,Mimi_sawari,부조화,bujohwa,discorde,discorde,Jarring,Jarring
 adjectives,kindred,parenté,parente,同族,Douzoku,혈연,hyeolyeon,parientes,parientes,Verwandtschaft,Verwandtschaft
-adjectives,notable,notable,notable,注目に値します,Chuumoku ni atarishimasu,주목할 만한,jumokhal manhan,notable,notable,bemerkenswert,bemerkenswert
+adjectives,notable,notable,notable,注目に値します,Chuumoku_ni_atarishimasu,주목할 만한,jumokhal_manhan,notable,notable,bemerkenswert,bemerkenswert
 adjectives,radiant,radiant,radiant,放射,Housha,광점,gwangjeom,radiante,radiante,strahlend,strahlend
 adjectives,sturdy,robuste,robuste,頑丈,Ganjou,튼튼합니다,tteuntteunhamnida,robusto,robusto,robust,robust
 adjectives,tender,tendre,tendre,入札,Nyuusatsu,부드러운,budeureoun,licitacion,licitación,zart,zart
 adjectives,affable,affable,affable,親しみやすい,Shinmiriyasui,상냥한,sangnyanghan,afable,afable,freundlich,freundlich
-adjectives,blissful,bienheureux,bienheureux,至福,Shifuku,더없이 행복한,deoeopsi haengbokhan,feliz,feliz,gluckselig,glückselig
+adjectives,blissful,bienheureux,bienheureux,至福,Shifuku,더없이 행복한,deoeopsi_haengbokhan,feliz,feliz,gluckselig,glückselig
 adjectives,delicate,délicat,delicat,繊細,Sensai,연약한,yeonyakhan,delicado,delicado,empfindlich,empfindlich
-adjectives,majestic,majestueux,majestueux,雄大,Yuudai,위엄 있는,wieom inneun,majestuoso,majestuoso,majestatisch,majestätisch
+adjectives,majestic,majestueux,majestueux,雄大,Yuudai,위엄 있는,wieom_inneun,majestuoso,majestuoso,majestatisch,majestätisch
 adjectives,placid,placide,placide,穏やか,Odayaka,온화한,onhwanhan,placido,plácido,ruhig,ruhig
 adjectives,resilient,résilient,resilient,回復力,Kaifukuryoku,탄력성,tanryeokseong,resiliente,resiliente,robust,robust
 adjectives,serene,serein,serein,穏やか,Odayaka,고요한,goyohan,sereno,sereno,heiter,heiter
 adjectives,venerable,vénérable,venerable,由緒ある,Yoshioaru,오래된,oraedoen,venerable,venerable,Ehrlich,Ehrlich
 adjectives,angular,angulaire,angulaire,角度,Kakudo,모난,monan,angular,angular,eckig,eckig
 adjectives,crimson,cramoisi,cramoisi,真紅,Shinku,진홍,jinhong,carmesi,carmesí,Purpur,Purpur
-adjectives,evanescent,évanescent,evanescent,エヴァネッセント,Evanessento,사라져 가는,sarajyeo ganeun,evanescente,evanescente,Evanescent,Evanescent
+adjectives,evanescent,évanescent,evanescent,エヴァネッセント,Evanessento,사라져 가는,sarajyeo_ganeun,evanescente,evanescente,Evanescent,Evanescent
 adjectives,fragrant,parfumé,parfume,香り,Kaori,향기로운,hyanggi,fragante,fragante,duftend,duftend
 adjectives,gleaming,luisant,luisant,キラキラ,Kirakira,빛나는,bitnaneun,reluciente,reluciente,glanzend,glänzend
 adjectives,intricate,complexe,complexe,複雑,Fukuzatsu,뒤얽힌,dwieolkhin,intrincado,intrincado,kompliziert,kompliziert
@@ -328,4 +328,4 @@ adjectives,oscillating,oscillant,oscillant,振動,Shindou,진동,jindong,oscilan
 adjectives,reverberant,réverbérant,reverberant,反響,Hankyou,반향,banhyang,reverberante,reverberante,nachhall,nachhall
 adjectives,spherical,sphérique,spherique,球状,Kyuujou,구의,guyi,esferico,esférico,spharisch,sphärisch
 adjectives,translucent,translucide,translucide,半透明,Hantoumei,투명한,tumyeonghan,translucido,translúcido,durchscheinend,durchscheinend
-adjectives,ubiquitous,omniprésent,omnipresent,ユビキタス,Yubikitasu,어디에나 있는,eodieina inneun,ubicuo,ubicuo,allgegenwartig,allgegenwärtig
+adjectives,ubiquitous,omniprésent,omnipresent,ユビキタス,Yubikitasu,어디에나 있는,eodieina_inneun,ubicuo,ubicuo,allgegenwartig,allgegenwärtig
