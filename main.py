@@ -17,6 +17,13 @@ places_df = df[df["category"] == "places"]
 concepts_df = df[df["category"] == "concepts"]
 adjectives_df = df[df["category"] == "adjectives"]
 
+# creates a function to make the first letter in each word in capital letters randomly
+def random_cap_first_letter(word):
+    if not word:
+        return word
+    first_char = random.choice([word[0].upper(),word[0].lower()])
+    return first_char + word[1:].lower()
+
 def update_list():
     global language_selected
     language_selected = [lang for lang, var in language_vars.items() if var.get() == 1]
@@ -29,12 +36,6 @@ def generate_password():
 
         # check if the dataframes have data
         if not animals_df.empty and not adjectives_df.empty and not places_df.empty:
-            # Sample one row for each dataframe
-            random_row_adj = adjectives_df.sample().iloc[0]
-            random_row_animal = animals_df.sample().iloc[0]
-            random_row_places = places_df.sample().iloc[0]
-
-
             # Randomly select a language from the selected languages
           # Sample one row from each DataFrame
             random_row_adj = adjectives_df.sample().iloc[0]
@@ -52,7 +53,7 @@ def generate_password():
             random_word_adj = random_row_adj[lang_adj]
             random_word_animal = random_row_animal[lang_animal]
             random_word_place = random_row_place[lang_place]
-            password_entry.insert(0, f"{random_word_adj.title()}{random_word_animal.title()}{random_word_place.title()}")
+            password_entry.insert(0, f"{random_cap_first_letter(random_word_adj)}{random_cap_first_letter(random_word_animal)}{random_cap_first_letter(random_word_place)}")
         else:
             print("No animals found in the DataFrame.")
     else:
