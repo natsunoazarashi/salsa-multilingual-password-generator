@@ -24,6 +24,17 @@ def random_cap_first_letter(word):
     first_char = random.choice([word[0].upper(),word[0].lower()])
     return first_char + word[1:].lower()
 
+def get_random_specials():
+    special_chars_list = ['!', '@', '#', '$', '%', '&', '*', '-', '_']
+    # Randomly choose to include a special character, a number, both, or none
+    specials = ""
+    if random.choice([True, False]):
+        specials += random.choice(special_chars_list)  # Add a special character
+    if random.choice([True, False]):
+        specials += str(random.randint(0, 9))  # Add a number
+    return specials
+
+
 def update_list():
     global language_selected
     language_selected = [lang for lang, var in language_vars.items() if var.get() == 1]
@@ -53,7 +64,16 @@ def generate_password():
             random_word_adj = random_row_adj[lang_adj]
             random_word_animal = random_row_animal[lang_animal]
             random_word_place = random_row_place[lang_place]
-            password_entry.insert(0, f"{random_cap_first_letter(random_word_adj)}{random_cap_first_letter(random_word_animal)}{random_cap_first_letter(random_word_place)}")
+            password = (
+                f"{random_cap_first_letter(random_word_adj)}"
+                f"{get_random_specials()}"
+                f"{random_cap_first_letter(random_word_animal)}"
+                f"{get_random_specials()}"
+                f"{random_cap_first_letter(random_word_place)}"
+                f"{get_random_specials()}"
+            )
+            # password_entry.insert(0, f"{random_cap_first_letter(random_word_adj)}{get_random_specials()}{random_cap_first_letter(random_word_animal)}{get_random_specials()}{random_cap_first_letter(random_word_place)}{get_random_specials()}")
+            password_entry.insert(0,password)
         else:
             print("No animals found in the DataFrame.")
     else:
