@@ -38,7 +38,8 @@ def get_random_specials():
 def update_list():
     global language_selected
     language_selected = [lang for lang, var in language_vars.items() if var.get() == 1]
-    print("Languages selected:", language_selected)  # For debugging
+    # uncomment the following for debugging purpose
+    # print("Languages selected:", language_selected)  # For debugging
 
 def generate_password():
     # print(language_selected)
@@ -80,7 +81,11 @@ def generate_password():
         print("No language selected.")
 
 
-
+# function to copy the password in the Entry by clicking 
+def copy_password(event):
+    password_entry.select_range(0,"end")
+    password_entry.clipboard_clear()
+    password_entry.clipboard_append(password_entry.get())
 
 
 canvas = Canvas(window,width=218,height=230)
@@ -90,6 +95,8 @@ canvas.grid(row=1,column=1,rowspan=6,columnspan=1)
 
 password_entry = Entry(window,width=35)
 password_entry.grid(row=0,column=1)
+# the binding of copying the password with a left click of the mouse
+password_entry.bind("<Button-1>",copy_password)
 
 # Dictionary to hold language checkbutton variables
 language_vars = {
