@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 import pandas as pd
 import random
 
@@ -78,7 +79,7 @@ def generate_password():
         else:
             print("No animals found in the DataFrame.")
     else:
-        print("No language selected.")
+        messagebox.showinfo(title="Language Selection Issue:", message="Please select at least one language.")
 
 
 # function to copy the password in the Entry by clicking 
