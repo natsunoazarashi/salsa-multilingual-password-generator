@@ -10,6 +10,10 @@ The Salsa Multilingual Password Generator is a Python-based application that gen
 ## Getting Started
 
 Have Python installed, then pandas library as well.
+
+The only python file to run is the **main.py**.
+Others are here as a reference for the cleaning process of the data.
+
 Select the languages you want from the list then select Easy or Hard to set a password with either one language from all the languages selected or a password that is a mix of different languages. 
 Then click on "Generate Password" and click in the zone your password is to automatically copy it in your clipboard.
 
