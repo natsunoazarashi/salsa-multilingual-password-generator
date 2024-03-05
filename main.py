@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import pandas as pd
-import random
+import secrets
 
 # re module for regex
 
@@ -22,17 +22,17 @@ adjectives_df = df[df["category"] == "adjectives"]
 def random_cap_first_letter(word):
     if not word:
         return word
-    first_char = random.choice([word[0].upper(),word[0].lower()])
+    first_char = secrets.choice([word[0].upper(),word[0].lower()])
     return first_char + word[1:].lower()
 
 def get_random_specials():
     special_chars_list = ['!', '@', '#', '$', '%', '&', '*', '-', '_']
     # Randomly choose to include a special character, a number, both, or none
     specials = ""
-    if random.choice([True, False]):
-        specials += random.choice(special_chars_list)  # Add a special character
-    if random.choice([True, False]):
-        specials += str(random.randint(0, 9))  # Add a number
+    if secrets.choice([True, False]):
+        specials += secrets.choice(special_chars_list)  # Add a special character
+    if secrets.choice([True, False]):
+        specials += str(secrets.randbelow(10))  # Add a number
     return specials
 
 
@@ -57,10 +57,10 @@ def generate_password():
             
             # For easy mode, use one language for all words; for hard mode, potentially use different languages for each word
             if difficulty.get() == 1:
-                chosen_language = random.choice(language_selected)
+                chosen_language = secrets.choice(language_selected)
                 lang_adj = lang_animal = lang_place = chosen_language
             else:
-                lang_adj, lang_animal, lang_place = random.choices(language_selected, k=3)  # Allow repetition, selecting from all available languages
+                lang_adj, lang_animal, lang_place = [secrets.choice(language_selected) for _ in range(3)]
             
             # Select words based on the chosen languages
             random_word_adj = random_row_adj[lang_adj]
